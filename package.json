@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-ssc-matrix-22",
+  "version": "1.0.0",
+  "description": "RHA SSC Parity Matrix – Score & Quota Analysis Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "ssc", "cgl", "parity", "gateway", "node"],
+  "author": "omnislegacy",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
